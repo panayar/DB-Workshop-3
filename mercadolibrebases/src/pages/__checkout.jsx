@@ -77,20 +77,6 @@ return (
                 </div>
 
                 <div className="mb-3">
-                    <label for="username">Username</label>
-                    <div className="input-group">
-                        <div className="input-group-prepend">
-                            <span className="input-group-text">@</span>
-                        </div>
-                        <input type="text" className="form-control" id="username" placeholder="Username"
-                            required></input>
-                        <div className="invalid-feedback">
-                            Your username is required.
-                        </div>
-                    </div>
-                </div>
-
-                <div className="mb-3">
                     <label for="email">Email <span className="text-muted">(Optional)</span></label>
                     <input type="email" className="form-control" id="email" placeholder="you@example.com"></input>
                     <div className="invalid-feedback">
