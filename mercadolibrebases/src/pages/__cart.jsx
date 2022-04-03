@@ -2,6 +2,8 @@ import React from 'react'
 import CartItem from '../components/item/CartItem';
 import ImgProducto from '../assets/producto.png';
 import formatPrice from "../utils/format";
+import Button from '../components/Button/Button';
+import {Link } from "react-router-dom";
 
 export default function cart() {
   return (
@@ -12,7 +14,7 @@ export default function cart() {
         <h3>Total :  {formatPrice('90000')} </h3>
     </div>
     <div className="cart-btn-continuar">
-        <button id='continuar-carrrito' className='btn-continuar'>Continuar</button>
+      <Link to={'/checkout'}><Button name={'Continuar'}></Button></Link> 
     </div>
     </div>
   )

@@ -9,6 +9,10 @@
     margin-left: 15px;
 }
 
+.nav-img {
+    width: 60px;
+}
+
 
 .nav-form:focus {
     outline: none;
@@ -16,7 +20,7 @@
 }
 
 .nav-bg-color {
-    background-color: #FFF159 !important;
+    background-color: #7952B3 !important;
 }
 
 .icon-carrito {

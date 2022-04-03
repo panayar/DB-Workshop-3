@@ -1,17 +1,21 @@
 import React from 'react';
-import Carrousel from '../components/carrousel/Carrousel';
-import FullDivider from '../components/divider/Fulldivider';
-import Itemlist from '../components/item/Itemlist';
+import Item from '../components/item/Item';
+import Product from '../assets/producto.png';
+import '../styles/styles.css';
 
-export default function __main() {
-  return (
-    <div>
-      <Carrousel/>
-      <div className="container">
-      <FullDivider/>
-      <Itemlist/>
-      <br></br>
-      </div>
-    </div>
-  )
+export default function search() {
+
+
+
+
+return (
+<div className="container">
+  <br></br>
+  <div className="products-container">
+    <Item link={'/'} picture={Product} price={'6000'} title={'Gafitas bonitas y facheras'} retailer={'falabella'} />
+    <Item link={'/'} picture={Product} price={'6000'} title={'Gafitas bonitas y facheras'} retailer={'falabella'} />
+    <Item link={'/'} picture={Product} price={'6000'} title={'Gafitas bonitas y facheras'} retailer={'falabella'} />
+  </div>
+</div>
+)
 }
