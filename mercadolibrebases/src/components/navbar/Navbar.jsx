@@ -1,12 +1,11 @@
 import Logo from '../../assets/LogoMercadoLibre.png';
 import Carrito from '../../assets/cart.svg';
 import './Navbar.css'
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
 return (
-<BrowserRouter>
   <div className="nav-bg-color">
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light nav-bg-color">
@@ -34,9 +33,6 @@ return (
       </nav>
     </div>
   </div>
-
-
-</BrowserRouter>
 
 );
 }

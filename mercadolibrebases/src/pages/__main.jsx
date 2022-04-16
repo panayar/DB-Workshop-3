@@ -5,9 +5,6 @@ import '../styles/styles.css';
 
 export default function search() {
 
-
-
-
 return (
 <div className="container">
   <br></br>
